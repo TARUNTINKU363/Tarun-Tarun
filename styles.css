@@ -1,0 +1,126 @@
+.footer
+{
+  background-color:#E4F9F5 ;
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  text-align: center;
+  padding: 20px 0 20px
+}
+
+h1
+{
+  font-family: 'Sacramento', cursive;
+  font-size: 70px;
+  color: #66BFBF;
+  text-align: center;
+}
+
+.first-container
+{
+  background-color:#E4F9F5;
+  padding: 20px 0 20px;
+}
+
+.five-container
+{
+  background-color: #66BFBF;
+  padding: 50px 0px 50px;
+}
+
+.second-container
+{
+
+  width: 100px;
+  height: 100px;
+  background: blue;
+  position: relative;
+  animation: Gayathri 10s infinite;
+}
+
+.third-container
+{
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+  animation: Tarun 10s infinite;
+}
+
+
+@keyframes Tarun {
+  from {left: 0px;}
+  to {left: 1400px;}
+}
+
+@keyframes Gayathri{
+  from {left: 1400px;}
+  to {left:   0px;}
+}
+
+
+h2
+{
+  text-align: center;
+  font-family: 'Sacramento', cursive;
+  font-size: 40px;
+}
+
+p
+{
+  text-align: center;
+  font-family: 'Sacramento', cursive;
+  font-size: 50px;
+  color: #66BFBF;
+}
+
+.p
+{
+  padding: 10px 0px 10px;
+}
+
+.T
+{
+  font-family: 'Sacramento', cursive;
+  position: absolute;
+  left : 600px;
+}
+.G
+{
+  font-family: 'Sacramento', cursive;
+  position: absolute;
+  right: 600px;
+}
+.T {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 20px;
+  background: red;
+  padding: 7px 18px 9px 16px;
+  text-decoration: none;
+}
+
+.T:hover {
+  background: #0b76b8;
+  text-decoration: none;
+}
+
+
+.G {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 20px;
+  background: blue;
+  padding: 7px 18px 9px 16px;
+  text-decoration: none;
+}
+
+.G:hover {
+  background: #0b76b8;
+  text-decoration: none;
+}
